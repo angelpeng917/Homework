@@ -1,4 +1,4 @@
-  body {
+ body {
     margin: 0;
   }
 
@@ -13,14 +13,13 @@
   }
   
   /* Style the top navigation bar */
-  .topnav {
+  .top-nav {
     overflow: hidden;
     background-color: white;
-   
   }
   
   /* Style the topnav  */
-  .topnav a {
+  .top-nav a {
     float: right;
     display: block;
     color: black;
@@ -30,28 +29,33 @@
     padding: 20px 75px;
     text-decoration: none;
   }
-  .p{
+
+  .border-bottom{
+    border-bottom:4px solid #189bdd;
+  }
+
+  .section-title{
     color:#189bdd;
     text-align: center;
     font-size: 22px;
     letter-spacing: 1px;
   }
 
-  .p1{
+  .subtitle{
     text-align: center;
     font-weight: bold;
     letter-spacing: 1px;
   }
 
-  .p2{
+  .table-content{
     text-align: left;
   }
 
-  .p3{
+  .table-item{
     border-color: #ddd white white white;
   }
 
-  .p4{
+  .Card-content{
     color:#189bdd;
     text-align: center;
     font-size: 22px;
@@ -80,14 +84,33 @@
   color: black;
   padding: 10px;
   letter-spacing: 2px;
-  
   }
 
   .article{
   padding: 50px 185px;
   }
 
-  .article2{
+  .row2 {
+    column-count: 3;
+    column-gap: 50px;
+  }
+  
+  .col2{
+    min-height:230px;
+  }
+  
+  .container2{
+      display: grid;
+      justify-content: center; 
+  }
+  
+  .card {
+    box-shadow: 0 5px 8px 0 rgba(27, 25, 25, 0.2);
+    min-height:200px;
+    padding: 10px 50px;
+  }
+
+  .table{
   padding: 90px 70px;
   }
 
@@ -116,7 +139,7 @@
   box-sizing: border-box;
   }
 
-  input[type=submit] {
+  button {
   width: 30%;
   background-color: #189bdd;
   color: white;
@@ -129,7 +152,6 @@
   }
 
   .message {
-  
   width: 450px;
   height: 315px;
   box-sizing: border-box;
@@ -161,7 +183,7 @@
     
   }
 
-  p.footer2 {
+  .footer-content {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -169,8 +191,6 @@
     word-break: keep-all;
   }
   
-  .bottomright {
+  .bottom-right {
     text-align: right;
   }
-  
-
